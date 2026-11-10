@@ -1,0 +1,26 @@
+[browser]
+gatherUsageStats = false
+
+# 공통: 한글 가독성이 좋은 Noto Sans KR, 둥근 모서리
+[theme]
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+headingFont = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+baseRadius = "0.75rem"
+buttonRadius = "0.6rem"
+showWidgetBorder = true
+
+# 라이트: 장바구니 느낌의 초록 포인트, 따뜻한 미색 배경
+[theme.light]
+primaryColor = "#1F8A5B"
+backgroundColor = "#F7F8F5"
+secondaryBackgroundColor = "#EDF2EC"
+textColor = "#1E2A22"
+borderColor = "#D9E2D7"
+
+# 다크: 같은 계열 초록. 너무 밝으면 버튼의 흰 글씨가 안 보여서 중간 밝기로 둔다.
+[theme.dark]
+primaryColor = "#24A06A"
+backgroundColor = "#111613"
+secondaryBackgroundColor = "#1B231E"
+textColor = "#E4ECE6"
+borderColor = "#2B3730"
