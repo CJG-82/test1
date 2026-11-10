@@ -1,0 +1,7 @@
+data/
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+.venv/
+.playwright-mcp/
+.pytest_cache/
